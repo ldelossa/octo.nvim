@@ -301,6 +301,9 @@ function M.setup()
       end,
     },
     review = {
+      browse = function()
+        reviews.browse_review()
+      end,
       start = function()
         reviews.start_review()
       end,
